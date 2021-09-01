@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "nebula-auth",
+      "type": "com.gaoice.cloud.nebula.auth.config.AppProperties",
+      "sourceType": "com.gaoice.cloud.nebula.auth.config.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "nebula-auth.clients",
+      "type": "java.util.List<com.gaoice.cloud.nebula.auth.bean.Client>",
+      "sourceType": "com.gaoice.cloud.nebula.auth.config.AppProperties"
+    },
+    {
+      "name": "nebula-auth.jks-alias",
+      "type": "java.lang.String",
+      "sourceType": "com.gaoice.cloud.nebula.auth.config.AppProperties",
+      "defaultValue": "nebula"
+    },
+    {
+      "name": "nebula-auth.jks-key-pass",
+      "type": "java.lang.String",
+      "sourceType": "com.gaoice.cloud.nebula.auth.config.AppProperties",
+      "defaultValue": "nebula"
+    },
+    {
+      "name": "nebula-auth.jks-path",
+      "type": "java.lang.String",
+      "sourceType": "com.gaoice.cloud.nebula.auth.config.AppProperties",
+      "defaultValue": "nebula.jks"
+    },
+    {
+      "name": "nebula-auth.jks-store-pass",
+      "type": "java.lang.String",
+      "sourceType": "com.gaoice.cloud.nebula.auth.config.AppProperties",
+      "defaultValue": "nebula"
+    },
+    {
+      "name": "nebula-auth.signing-key",
+      "type": "java.lang.String",
+      "sourceType": "com.gaoice.cloud.nebula.auth.config.AppProperties",
+      "defaultValue": "nebula-auth-default-signing-key"
+    }
+  ],
+  "hints": []
+}

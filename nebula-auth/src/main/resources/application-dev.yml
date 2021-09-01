@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host: 192.168.242.128
+    port: 6379
+    password:
+    database: 0
+
+
+nebula-auth:
+  jks-path: nebula.jks
+  jks-alias: nebula
+  jks-store-pass: nebula
+  jks-key-pass: nebula
+  clients:
+    - clientId: n-s-user
+      secret: 123456

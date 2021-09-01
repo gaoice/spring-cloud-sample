@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: n-s-demo
+  profiles:
+    active: dev

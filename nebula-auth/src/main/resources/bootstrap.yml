@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: nebula-auth
+  profiles:
+    active: dev

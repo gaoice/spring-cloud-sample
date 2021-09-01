@@ -1,0 +1,26 @@
+server:
+  port: 9000
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: "http://localhost:9001/public/publicKey"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+nebula:
+  gateway:
+    public-urls:
+      - "/nebula-auth/oauth/token"
+      - "/nebula-auth/oauth/authorize"

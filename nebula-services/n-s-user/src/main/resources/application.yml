@@ -1,0 +1,25 @@
+server:
+  port: 9002
+
+spring:
+  # datasource
+  datasource:
+    url: jdbc:mysql://192.168.242.128:3306/nebula?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  # jpa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  redis:
+    host: 192.168.242.128
+    port: 6379
+    password:
+    database: 0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

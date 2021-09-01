@@ -1,0 +1,16 @@
+server:
+  port: 19000
+
+spring:
+  profiles:
+    active: dev
+
+feign:
+  okhttp:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

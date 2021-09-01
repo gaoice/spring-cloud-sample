@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: nebula-gateway
+  profiles:
+    active: dev
