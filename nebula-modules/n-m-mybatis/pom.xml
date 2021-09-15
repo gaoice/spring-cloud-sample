@@ -15,7 +15,6 @@
 
     <dependencies>
         <!-- mybatis -->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
@@ -27,5 +26,4 @@
             <scope>runtime</scope>
         </dependency>
     </dependencies>
-
 </project>

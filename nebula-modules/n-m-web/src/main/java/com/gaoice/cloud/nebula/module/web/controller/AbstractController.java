@@ -7,6 +7,6 @@ import org.slf4j.LoggerFactory;
  * @author gaoice
  */
 public abstract class AbstractController {
-   protected Logger logger = LoggerFactory.getLogger(getClass());
+    protected Logger logger = LoggerFactory.getLogger(getClass());
 
 }

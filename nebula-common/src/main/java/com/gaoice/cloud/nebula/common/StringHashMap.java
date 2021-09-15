@@ -5,5 +5,5 @@ import java.util.HashMap;
 /**
  * @author gaoice
  */
-public class StringHashMap extends HashMap<String,String> {
+public class StringHashMap extends HashMap<String, String> {
 }
